@@ -55,7 +55,7 @@ if ($ok === true) {
 
         // add a comment to explain the line of code below
         // create the SQL query and then store it in the php variable
-        $sql = "INSERT INTO persons (first_name, last_name, email) VALUES (:firstname, :lastname, :email);"; // what is missing here?
+        $sql = "INSERT INTO user_info (first_name, last_name, email) VALUES (:firstname, :lastname, :email);"; // what is missing here?
 
         // add a comment to explain the line of code below
         // prepare the specified SQL statement for execution and assign a returned PDOStatement to php variable
@@ -92,7 +92,7 @@ if ($ok === true) {
     <a href="index.php" class="error-btn"> Back to Form </a>
     </main>
     <footer>
-      <p> &copy; 2020 Lab Five </p>
+      <p> &copy; 2020 Lab Nine </p>
     </footer>
    </div><!--end container-->
   </body>
