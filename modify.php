@@ -55,6 +55,7 @@ if(isset($_SESSION['id'])){
         $statement_cred->closeCursor();
 
         $_SESSION['isLogin'] = null;
+        $_SESSION['id'] = null;
         $_SESSION['update'] = 1;
         header('location:success_msg.php');
     }
